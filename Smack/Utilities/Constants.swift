@@ -12,3 +12,5 @@ import Foundation
 let TO_LOGIN = "toLogin"
 let TO_SW_REAR = "sw_rear"
 let TO_SW_FRONT = "sw_front"
+let TO_CREATE_ACCOUNT = "toCreateAccount"
+let UNWIND = "unwindToChannel"
