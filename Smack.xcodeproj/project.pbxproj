@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		432B2AD2210EA16100A02748 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432B2AD1210EA16100A02748 /* AuthService.swift */; };
 		433CBB5A21095A1F00EB647E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433CBB5921095A1F00EB647E /* AppDelegate.swift */; };
 		433CBB5F21095A1F00EB647E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433CBB5D21095A1F00EB647E /* Main.storyboard */; };
 		433CBB6121095A2000EB647E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433CBB6021095A2000EB647E /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		164C4FAD90639DD0F0A14733 /* Pods-Smack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smack/Pods-Smack.release.xcconfig"; sourceTree = "<group>"; };
+		432B2AD1210EA16100A02748 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		433CBB5621095A1F00EB647E /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		433CBB5921095A1F00EB647E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		433CBB5E21095A1F00EB647E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,6 +56,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		432B2AD0210EA15200A02748 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				432B2AD1210EA16100A02748 /* AuthService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		433CBB4D21095A1F00EB647E = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		433CBB5821095A1F00EB647E /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				432B2AD0210EA15200A02748 /* Services */,
 				43CDC3DB210B2535008E775F /* Utilities */,
 				436AA74F2109E6C700F8720D /* Model */,
 				436AA74E2109E6BD00F8720D /* View */,
@@ -272,6 +283,7 @@
 				436AA7542109E6FA00F8720D /* ChannelVC.swift in Sources */,
 				436AA7522109E6EA00F8720D /* ChatVC.swift in Sources */,
 				43CDC3E1210B2CC8008E775F /* CreateAccountVC.swift in Sources */,
+				432B2AD2210EA16100A02748 /* AuthService.swift in Sources */,
 				43CDC3DF210B2A15008E775F /* LoginVC.swift in Sources */,
 				43FCD4C7210AA7D6006D6B4F /* GradientView.swift in Sources */,
 				433CBB5A21095A1F00EB647E /* AppDelegate.swift in Sources */,
